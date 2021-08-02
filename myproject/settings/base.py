@@ -71,5 +71,6 @@ VENV_PATH = os.path.dirname(BASE_DIR)
 STATIC_ROOT =os.path.join(VENV_PATH, 'static')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(VENV_PATH, 'media')
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
